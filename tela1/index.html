@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Cadastro</title>
+</head>
+<body>
+    <div id="principal">
+        <div class="logo">
+            <img src="b4f54ed4e74cff2ce885865761a7ae54.png" alt="">
+        </div>
+        <div class="cadastro">
+            <form id="cadastroForm">
+                <div class="form-header">
+                    <div class="titulo">
+                        <h1>Cadastre-se no PharmaShare</h1>
+                    </div>
+                </div>
+                <div class="input-grupo">
+                    <div class="input-box">
+                        <label for="firstname">Nome Completo</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Nome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="lastname">Celular</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Celular" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Digite seu Email</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="numero">CPF:</label>
+                        <input id="numero" type="tel" name="numero" placeholder="" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="senha">Senha</label>
+                        <input id="senha" type="password" name="senha" placeholder="Digite sua senha" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="confirme-senha">Confirme sua senha</label>
+                        <input id="confirme-senha" type="password" name="confirme-senha" placeholder="Confirme sua senha" required>
+                    </div>
+                </div>
+                <div class="input-gen">
+                    <div class="tit-gen">
+                        <h6>Gênero</h6>
+                    </div>
+                    <div class="gen-grupo">
+                        <div class="genero-input">
+                            <input type="radio" id="feminino" name="genero" value="Feminino">
+                            <label for="feminino">Feminino</label>
+                        </div>
+                        <div class="genero-input">
+                            <input type="radio" id="masculino" name="genero" value="Masculino">
+                            <label for="masculino">Masculino</label>
+                        </div>
+                        <div class="genero-input">
+                            <input type="radio" id="outros" name="genero" value="Outros">
+                            <label for="outros">Outros</label>
+                        </div>
+                        <div class="genero-input">
+                            <input type="radio" id="sem" name="genero" value="Prefiro não dizer">
+                            <label for="sem">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-button">
+                    <button type="submit" id="signup" >Confirmar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
